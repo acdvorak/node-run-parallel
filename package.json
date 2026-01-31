@@ -1,0 +1,32 @@
+{
+  "name": "@acdvorak/run-parallel",
+  "version": "1.0.0",
+  "description": "Ultra-minimal CLI wrapper around npm-run-all parallel mode.",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "npm-run-all",
+    "run-parallel",
+    "parallel",
+    "cli",
+    "npm"
+  ],
+  "type": "module",
+  "bin": {
+    "run-parallel": "./bin/run-parallel.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node -e \"process.exit(0)\"",
+    "lint": "node -e \"process.exit(0)\"",
+    "prepublishOnly": "node ./bin/run-parallel.js"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
