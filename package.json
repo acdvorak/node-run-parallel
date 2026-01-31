@@ -1,7 +1,7 @@
 {
   "name": "@acdvorak/run-parallel",
-  "version": "1.0.0",
-  "description": "Ultra-minimal CLI wrapper around npm-run-all parallel mode.",
+  "version": "1.0.1",
+  "description": "CLI alias for `npm-run-all --parallel --aggregate-output --continue-on-error`",
   "license": "MIT",
   "private": false,
   "publishConfig": {
